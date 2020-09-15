@@ -7,3 +7,12 @@ D:\Fontys semester 2 2020-2021\Visual Studio apps\Interfaces\obj\Debug\netstanda
 D:\Fontys semester 2 2020-2021\Visual Studio apps\Interfaces\obj\Debug\netstandard2.0\Interfaces.csproj.CoreCompileInputs.cache
 D:\Fontys semester 2 2020-2021\Visual Studio apps\Interfaces\obj\Debug\netstandard2.0\Interfaces.dll
 D:\Fontys semester 2 2020-2021\Visual Studio apps\Interfaces\obj\Debug\netstandard2.0\Interfaces.pdb
+D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\bin\Debug\netstandard2.0\Interfaces.deps.json
+D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\bin\Debug\netstandard2.0\Interfaces.dll
+D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.csprojAssemblyReference.cache
+D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfoInputs.cache
+D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfo.cs
+D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.csproj.CoreCompileInputs.cache
+D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.dll
+D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.pdb

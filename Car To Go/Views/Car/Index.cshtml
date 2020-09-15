@@ -6,20 +6,18 @@
 
 @foreach (var item in Model)
 {
-   <div class="card">
-       @for (int x = 0; x < 1; x++)
-       {
+   
        <div class="card-deck">
 
            <div class="card">
-               <div class="card">@Html.DisplayFor(ModelItem => item.Modelname)</div>
+               <h3>@Html.DisplayFor(ModelItem => item.Brandname)</h3>
+               <h5>@Html.DisplayFor(ModelItem => item.Modelname)</h5>
+               <p>@Html.DisplayFor(ModelItem => item.Enginepower)PK</p>
+               <p>@Html.DisplayFor(ModelItem => item.Acceleration)seconds to 0-100km/h)</p>
+               <p>@Html.DisplayFor(ModelItem => item.Cargospace)Liters Cargospace</p>
+               <p>@Html.DisplayFor(ModelItem => item.Seat)</p>
+
            </div>
        </div>
-        }      
-                    
-                
-          
-       
-       
-       </div>
+                       
 }

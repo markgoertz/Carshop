@@ -1,0 +1,12 @@
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\bin\Debug\netstandard2.0\Bussines Logic Layer (BLL).deps.json
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\bin\Debug\netstandard2.0\Bussines Logic Layer (BLL).dll
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\bin\Debug\netstandard2.0\Bussines Logic Layer (BLL).pdb
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\bin\Debug\netstandard2.0\Interfaces.dll
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).csprojAssemblyReference.cache
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).AssemblyInfoInputs.cache
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).AssemblyInfo.cs
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).csproj.CoreCompileInputs.cache
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).csproj.CopyComplete
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).dll
+D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).pdb
