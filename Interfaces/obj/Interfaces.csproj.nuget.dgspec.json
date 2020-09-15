@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj": {}
+    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj": {}
   },
   "projects": {
-    "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj": {
+    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj",
+        "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj",
         "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-        "outputPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\obj\\",
+        "outputPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

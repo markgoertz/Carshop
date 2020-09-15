@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Car_To_Go.Models.CarViewModel>
+@{ ViewData["Title"] = "Index"; }
+
+<div class="h2 pt-3 text-center font-weight-bold">Our showroom, meet the prestigious cars!</div>
+<hr />
+
+@foreach (var item in Model)
+{
+   <div class="card">
+       @for (int x = 0; x < 1; x++)
+       {
+       <div class="card-deck">
+
+           <div class="card">
+               <div class="card">@Html.DisplayFor(ModelItem => item.Modelname)</div>
+           </div>
+       </div>
+        }      
+                    
+                
+          
+       
+       
+       </div>
+}

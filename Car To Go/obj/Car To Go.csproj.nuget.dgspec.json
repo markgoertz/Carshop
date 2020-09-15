@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Car To Go\\Car To Go.csproj": {}
+    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Car To Go\\Car To Go.csproj": {}
   },
   "projects": {
-    "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj": {
+    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj",
+        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj",
         "projectName": "Bussines Logic Layer (BLL)",
-        "projectPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj",
+        "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj",
         "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-        "outputPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Bussines Logic Layer (BLL)\\obj\\",
+        "outputPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj"
+              "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Car To Go\\Car To Go.csproj": {
+    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Car To Go\\Car To Go.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Car To Go\\Car To Go.csproj",
+        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Car To Go\\Car To Go.csproj",
         "projectName": "Car To Go",
-        "projectPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Car To Go\\Car To Go.csproj",
+        "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Car To Go\\Car To Go.csproj",
         "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-        "outputPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Car To Go\\obj\\",
+        "outputPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Car To Go\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -96,14 +96,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj": {
-                "projectPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj"
+              "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj": {
+                "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj"
               },
-              "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Data access layer\\Data Access Layer (DAL).csproj": {
-                "projectPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Data access layer\\Data Access Layer (DAL).csproj"
+              "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj": {
+                "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj"
               },
-              "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj"
+              "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Data access layer\\Data Access Layer (DAL).csproj": {
+    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Data access layer\\Data Access Layer (DAL).csproj",
+        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj",
         "projectName": "Data Access Layer (DAL)",
-        "projectPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Data access layer\\Data Access Layer (DAL).csproj",
+        "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj",
         "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-        "outputPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Data access layer\\obj\\",
+        "outputPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -166,8 +166,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj"
+              "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -206,14 +206,14 @@
         }
       }
     },
-    "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj": {
+    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\Interfaces.csproj",
+        "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj",
         "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-        "outputPath": "D:\\Fontys semester 2 2020-2021\\Visual Studio apps\\Interfaces\\obj\\",
+        "outputPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mL4ZsFCcxFP0zBQGH3nSWU9jAjZRNCtg2N9dnquRbUQ2M7+E/ZoL3TM0Fxb+77L9wqEp7iyLIyjSq0dYQIX/Ow==",
+  "success": true,
+  "projectFilePath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
