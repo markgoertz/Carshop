@@ -7,6 +7,7 @@ namespace Interfaces.Handlers
 {
     public interface ICarDatabaseHandler
     {
+        void Createcars(ICar C1);
         List<ICar> GetCars();
     }
 }

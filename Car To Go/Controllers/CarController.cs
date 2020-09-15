@@ -9,7 +9,7 @@ using Car_To_Go.Models;
 
 namespace Car_To_Go.Controllers
 {
-    public class CarController:Controller
+    public class CarController : Controller
     {
         private readonly ICarBLL _carBLL;
         public CarController(ICarBLL carBLL)
@@ -21,7 +21,7 @@ namespace Car_To_Go.Controllers
             var allcars = _carBLL.GetCars();
             var cars = new List<CarViewModel>();
 
-            foreach(var car in allcars)
+            foreach (var car in allcars)
             {
                 cars.Add(new CarViewModel
                 {
@@ -34,10 +34,31 @@ namespace Car_To_Go.Controllers
                     Modelname = car.Modelname,
                     RentalPrice = car.RentalPrice,
                     Transmission = car.Transmission,
-                    Weight = car.Weight
+                    Weight = car.Weight,
+                    Fueltype = car.Fueltype
+
                 });
             }
             return View(cars);
         }
+
+
+        [HttpGet]
+        public ActionResult Create()
+        {
+            var carviewmodel = new CarViewModel();
+            return View(carviewmodel);
+        }
+
+        [HttpPost]
+        public ActionResult Create([Bind] CarViewModel car)
+        {
+            _carBLL.Createcar(car);
+            return RedirectToAction("Index");
+
+        }
+
+        
+
     }
 }
