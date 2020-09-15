@@ -17,6 +17,7 @@ namespace Data_access_layer.Entities
         public int Cargospace { get; set; }
         public int Seat { get; set; }
         public double RentalPrice { get; set; }
+        public string Fueltype { get; set; }
 
     }
 }

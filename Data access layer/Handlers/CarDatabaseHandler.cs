@@ -35,7 +35,8 @@ namespace Data_access_layer.Handlers
                             Acceleration = reader.GetDouble(6),
                             Cargospace = reader.GetInt32(7),
                             Seat = reader.GetInt32(8),
-                            RentalPrice = reader.GetDouble(9)
+                            RentalPrice = reader.GetDouble(9),
+                            Fueltype = reader.GetString(10)
                         };
 
                         cars.Add(CarDTO);
@@ -43,6 +44,31 @@ namespace Data_access_layer.Handlers
                 }
             }
             return cars;
+        }
+
+        public void Createcars (ICar C1)
+        {
+            using (SqlConnection connection = new SqlConnection(DataConnectionstring))
+            {
+                string query = "INSERT INTO [dbi434548].[dbo].[Car] VALUES (@ID, @Brandname,@Modelname, @Transmission, @Enginepower, @Weight, @Acceleration, @Cargospace, @Seat, @Rentalprice, @Fueltype);";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@ID", C1.ID);
+                    command.Parameters.AddWithValue("@Brandname", C1.Brandname);
+                    command.Parameters.AddWithValue("@Modelname", C1.Modelname);
+                    command.Parameters.AddWithValue("@Transmission", C1.Transmission);
+                    command.Parameters.AddWithValue("@Enginepower", C1.Enginepower);
+                    command.Parameters.AddWithValue("@Weight", C1.Weight);
+                    command.Parameters.AddWithValue("@Acceleration", C1.Acceleration);
+                    command.Parameters.AddWithValue("@Cargospace", C1.Cargospace);
+                    command.Parameters.AddWithValue("@Seat", C1.Seat);
+                    command.Parameters.AddWithValue("@Rentalprice", C1.RentalPrice);
+                    command.Parameters.AddWithValue("@Fueltype", C1.Fueltype);
+
+                    command.ExecuteNonQuery();
+                }
+            }
+           
         }
     }
 }

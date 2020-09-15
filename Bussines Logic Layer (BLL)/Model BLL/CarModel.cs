@@ -17,6 +17,7 @@ namespace Bussines_Logic_Layer__BLL_.Model_BLL
         public int Cargospace { get; set; }
         public int Seat { get; set; }
         public double RentalPrice { get; set; }
+        public string Fueltype { get; set; }
 
     }
 }

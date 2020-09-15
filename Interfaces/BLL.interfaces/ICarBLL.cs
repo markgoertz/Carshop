@@ -8,5 +8,6 @@ namespace Interfaces.BLL.interfaces
     public interface ICarBLL
     {
         List<ICar> GetCars();
+        void Createcar(ICar car);
     }
 }

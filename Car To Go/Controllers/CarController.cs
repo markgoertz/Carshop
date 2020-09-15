@@ -35,7 +35,8 @@ namespace Car_To_Go.Controllers
                     RentalPrice = car.RentalPrice,
                     Transmission = car.Transmission,
                     Weight = car.Weight,
-                    Fueltype = car.Fueltype
+                    Fueltype = car.Fueltype,
+                    
 
                 });
             }
