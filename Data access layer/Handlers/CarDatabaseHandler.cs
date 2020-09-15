@@ -50,9 +50,11 @@ namespace Data_access_layer.Handlers
         {
             using (SqlConnection connection = new SqlConnection(DataConnectionstring))
             {
-                string query = "INSERT INTO [dbi434548].[dbo].[Car] VALUES (@ID, @Brandname,@Modelname, @Transmission, @Enginepower, @Weight, @Acceleration, @Cargospace, @Seat, @Rentalprice, @Fueltype);";
+                string query = "INSERT INTO [dbi434548].[dbo].[Car] VALUES (@Brandname,@Modelname, @Transmission, @Enginepower, @Weight, @Acceleration, @Cargospace, @Seat, @Rentalprice, @Fueltype);";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
+                   
+
                     command.Parameters.AddWithValue("@ID", C1.ID);
                     command.Parameters.AddWithValue("@Brandname", C1.Brandname);
                     command.Parameters.AddWithValue("@Modelname", C1.Modelname);
@@ -65,7 +67,9 @@ namespace Data_access_layer.Handlers
                     command.Parameters.AddWithValue("@Rentalprice", C1.RentalPrice);
                     command.Parameters.AddWithValue("@Fueltype", C1.Fueltype);
 
+                    connection.Open();
                     command.ExecuteNonQuery();
+                    connection.Close();
                 }
             }
            

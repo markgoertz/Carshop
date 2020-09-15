@@ -52,14 +52,14 @@ namespace Car_To_Go.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create([Bind] CarViewModel car)
+        public ActionResult Create(CarViewModel car)
         {
             _carBLL.Createcar(car);
-            return RedirectToAction("Index");
 
+            return RedirectToAction("Index");
         }
 
-        
+
 
     }
 }

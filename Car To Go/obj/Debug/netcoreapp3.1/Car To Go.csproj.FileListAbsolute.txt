@@ -122,3 +122,4 @@ D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\bin\Debug\netcoreapp3.1\zh
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.csproj.CoreCompileInputs.cache
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.MvcApplicationPartsAssemblyInfo.cache
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Home\Store.cshtml.g.cs
+D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Car\Create.cshtml.g.cs

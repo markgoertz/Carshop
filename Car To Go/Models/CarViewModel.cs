@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Interfaces.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Car_To_Go.Models
 {
-    public class CarViewModel
+    public class CarViewModel : ICar
     {
         public int ID { get; set; }
         public string Brandname { get; set; }
