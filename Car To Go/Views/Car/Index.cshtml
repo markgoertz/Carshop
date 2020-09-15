@@ -10,8 +10,8 @@
        <div class="card-deck">
 
            <div class="card">
-               <h3>@Html.DisplayFor(ModelItem => item.Brandname)</h3>
-               <h5>@Html.DisplayFor(ModelItem => item.Modelname)</h5>
+               <h2>@Html.DisplayFor(ModelItem => item.Brandname) | @Html.DisplayFor(ModelItem => item.Modelname)</h2>
+               
                <p>@Html.DisplayFor(ModelItem => item.Enginepower)PK</p>
                <p>@Html.DisplayFor(ModelItem => item.Acceleration)seconds to 0-100km/h)</p>
                <p>@Html.DisplayFor(ModelItem => item.Cargospace)Liters Cargospace</p>
@@ -19,5 +19,7 @@
 
            </div>
        </div>
+       <br/>
+       
                        
 }
