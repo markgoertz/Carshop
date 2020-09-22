@@ -11,11 +11,17 @@ namespace Data_access_layer.Handlers
     public class CarDatabaseHandler:ICarDatabaseHandler
     {
 
-        private readonly string DataConnectionstring = @"Server=mssql.fhict.local;Database=dbi434548;User Id = dbi434548; Password=MijnFontysServer2020";
+
+        private static string connectionString = "";
+
+        public static void SetConnectionString(string constring)
+        {
+            connectionString = constring;
+        }
         public List<ICar> GetCars()
         {
             var cars = new List<ICar>();
-            using (SqlConnection connection = new SqlConnection(DataConnectionstring))
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 string query = "SELECT * FROM [dbi434548].[dbo].[Car]";
                 using (SqlCommand command = new SqlCommand(query,connection))
@@ -48,7 +54,7 @@ namespace Data_access_layer.Handlers
 
         public void Createcars (ICar C1)
         {
-            using (SqlConnection connection = new SqlConnection(DataConnectionstring))
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 string query = "INSERT INTO [dbi434548].[dbo].[Car] VALUES (@Brandname,@Modelname, @Transmission, @Enginepower, @Weight, @Acceleration, @Cargospace, @Seat, @Rentalprice, @Fueltype);";
                 using (SqlCommand command = new SqlCommand(query, connection))

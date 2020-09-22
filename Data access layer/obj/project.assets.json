@@ -869,21 +869,19 @@
   },
   "packageFolders": {
     "C:\\Users\\goert\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj",
+      "projectUniqueName": "D:\\Proftaak\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj",
       "projectName": "Data Access Layer (DAL)",
-      "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj",
+      "projectPath": "D:\\Proftaak\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj",
       "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-      "outputPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\obj\\",
+      "outputPath": "D:\\Proftaak\\Carshop\\Data access layer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\goert\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -900,8 +898,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj"
+            "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj"
             }
           }
         }
@@ -936,7 +934,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

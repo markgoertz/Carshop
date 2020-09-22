@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Car To Go\\Car To Go.csproj": {}
+    "D:\\Proftaak\\Carshop\\Car To Go\\Car To Go.csproj": {}
   },
   "projects": {
-    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj": {
+    "D:\\Proftaak\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj",
+        "projectUniqueName": "D:\\Proftaak\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj",
         "projectName": "Bussines Logic Layer (BLL)",
-        "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj",
+        "projectPath": "D:\\Proftaak\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj",
         "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-        "outputPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\obj\\",
+        "outputPath": "D:\\Proftaak\\Carshop\\Bussines Logic Layer (BLL)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\goert\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,8 +31,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj"
+              "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -64,22 +63,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Car To Go\\Car To Go.csproj": {
+    "D:\\Proftaak\\Carshop\\Car To Go\\Car To Go.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Car To Go\\Car To Go.csproj",
+        "projectUniqueName": "D:\\Proftaak\\Carshop\\Car To Go\\Car To Go.csproj",
         "projectName": "Car To Go",
-        "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Car To Go\\Car To Go.csproj",
+        "projectPath": "D:\\Proftaak\\Carshop\\Car To Go\\Car To Go.csproj",
         "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-        "outputPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Car To Go\\obj\\",
+        "outputPath": "D:\\Proftaak\\Carshop\\Car To Go\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\goert\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,14 +94,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj": {
-                "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj"
+              "D:\\Proftaak\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj": {
+                "projectPath": "D:\\Proftaak\\Carshop\\Bussines Logic Layer (BLL)\\Bussines Logic Layer (BLL).csproj"
               },
-              "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj": {
-                "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj"
+              "D:\\Proftaak\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj": {
+                "projectPath": "D:\\Proftaak\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj"
               },
-              "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj"
+              "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -117,6 +115,24 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.4, )"
@@ -140,22 +156,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj": {
+    "D:\\Proftaak\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj",
+        "projectUniqueName": "D:\\Proftaak\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj",
         "projectName": "Data Access Layer (DAL)",
-        "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj",
+        "projectPath": "D:\\Proftaak\\Carshop\\Data access layer\\Data Access Layer (DAL).csproj",
         "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-        "outputPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Data access layer\\obj\\",
+        "outputPath": "D:\\Proftaak\\Carshop\\Data access layer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\goert\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,8 +187,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj"
+              "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -208,22 +223,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj": {
+    "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj",
+        "projectPath": "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj",
         "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-        "outputPath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\obj\\",
+        "outputPath": "D:\\Proftaak\\Carshop\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\goert\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -268,7 +282,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

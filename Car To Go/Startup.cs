@@ -17,10 +17,13 @@ namespace Car_To_Go
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private string ConnectionString = "";
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
-            Configuration = configuration;
+            configuration = new ConfigurationBuilder().SetBasePath(env.ContentRootPath).AddJsonFile("appsettings.json", optional: false, reloadOnChange: true).Build();
+            ConnectionString = configuration["ConnectionStrings:DefaultConnection"];
         }
+
 
         public IConfiguration Configuration { get; }
 
@@ -28,6 +31,7 @@ namespace Car_To_Go
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddRazorPages();
             
             services.AddScoped<ICarDatabaseHandler, CarDatabaseHandler>();
             services.AddScoped<ICarBLL, CarBLL>();
@@ -50,15 +54,21 @@ namespace Car_To_Go
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
+            
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
+
+            //Connectionstring binder
+
+            CarDatabaseHandler.SetConnectionString(ConnectionString);
         }
     }
 }

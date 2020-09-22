@@ -16,3 +16,12 @@ D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\obj\Debug\netstandard2.0\
 D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.csproj.CoreCompileInputs.cache
 D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.dll
 D:\Fontys semester 2 2020-2021\Test\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.pdb
+D:\Proftaak\Carshop\Interfaces\bin\Debug\netstandard2.0\Interfaces.deps.json
+D:\Proftaak\Carshop\Interfaces\bin\Debug\netstandard2.0\Interfaces.dll
+D:\Proftaak\Carshop\Interfaces\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\Proftaak\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.csprojAssemblyReference.cache
+D:\Proftaak\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfoInputs.cache
+D:\Proftaak\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfo.cs
+D:\Proftaak\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.csproj.CoreCompileInputs.cache
+D:\Proftaak\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.dll
+D:\Proftaak\Carshop\Interfaces\obj\Debug\netstandard2.0\Interfaces.pdb

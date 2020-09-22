@@ -10,3 +10,15 @@ D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\obj\Debug
 D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).csproj.CopyComplete
 D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).dll
 D:\Fontys semester 2 2020-2021\Test\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).pdb
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\bin\Debug\netstandard2.0\Bussines Logic Layer (BLL).deps.json
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\bin\Debug\netstandard2.0\Bussines Logic Layer (BLL).dll
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\bin\Debug\netstandard2.0\Bussines Logic Layer (BLL).pdb
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\bin\Debug\netstandard2.0\Interfaces.dll
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).csprojAssemblyReference.cache
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).AssemblyInfoInputs.cache
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).AssemblyInfo.cs
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).csproj.CoreCompileInputs.cache
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).csproj.CopyComplete
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).dll
+D:\Proftaak\Carshop\Bussines Logic Layer (BLL)\obj\Debug\netstandard2.0\Bussines Logic Layer (BLL).pdb

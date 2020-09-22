@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dpeHhtPhNVTlVT9MhKUuHnk/SuVPKBhxZNt5rmgIbHWz2k4jMUTQM4QCwBgeTo1oc9pDCeg9DGKfiaEsE3dAag==",
+  "dgSpecHash": "rQhs9H2TnZRnvZ6dZSPO5w/BXv/jf5PdXRJ9blVQBNmLQu8ZqvBqVzsRpkWLHcJpZIFfomIlHw/TpvGY5BSVKg==",
   "success": true,
-  "projectFilePath": "D:\\Fontys semester 2 2020-2021\\Test\\Carshop\\Interfaces\\Interfaces.csproj",
+  "projectFilePath": "D:\\Proftaak\\Carshop\\Interfaces\\Interfaces.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\goert\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\goert\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
