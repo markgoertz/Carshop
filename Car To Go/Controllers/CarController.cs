@@ -59,6 +59,10 @@ namespace Car_To_Go.Controllers
             return RedirectToAction("Index");
         }
 
+        public ActionResult Details(int ID)
+        {
+            return View("Details");
+        }
 
 
     }

@@ -1,0 +1,84 @@
+﻿@model Car_To_Go.Models.CarViewModel
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>View</h1>
+
+<div>
+    <h4>CarViewModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => @Model.ID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Brandname)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => @Model.Brandname)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Modelname)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => @Model.Modelname)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Transmission)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => @Model.Transmission)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Enginepower)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => @Model.Enginepower)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => @Model.Weight)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Acceleration)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => @Model.Acceleration)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cargospace)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => @Model.Cargospace)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Seat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => @Model.Seat)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RentalPrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => @Model.RentalPrice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Fueltype)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => @Model.Fueltype)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

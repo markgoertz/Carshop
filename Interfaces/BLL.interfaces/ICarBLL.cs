@@ -9,5 +9,6 @@ namespace Interfaces.BLL.interfaces
     {
         List<ICar> GetCars();
         void Createcar(ICar car);
+        ICar GetByID(ICar car);
     }
 }

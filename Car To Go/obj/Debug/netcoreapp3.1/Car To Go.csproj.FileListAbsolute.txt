@@ -29,7 +29,6 @@ D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Ca
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.TagHelpers.input.cache
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.TagHelpers.output.cache
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.RazorCoreGenerate.cache
-D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Car\Index.cshtml.g.cs
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Home\Location.cshtml.g.cs
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -123,6 +122,7 @@ D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Ca
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.MvcApplicationPartsAssemblyInfo.cache
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Home\Store.cshtml.g.cs
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Car\Create.cshtml.g.cs
+<<<<<<< Updated upstream
 D:\Proftaak\Carshop\Car To Go\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Proftaak\Carshop\Car To Go\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Proftaak\Carshop\Car To Go\bin\Debug\netcoreapp3.1\appsettings.json
@@ -305,3 +305,7 @@ D:\Proftaak\Carshop\Car To Go\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Ident
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.csproj.CoreCompileInputs.cache
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.MvcApplicationPartsAssemblyInfo.cs
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.MvcApplicationPartsAssemblyInfo.cache
+=======
+D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Car\Details.cshtml.g.cs
+D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Car\Index.cshtml.g.cs
+>>>>>>> Stashed changes

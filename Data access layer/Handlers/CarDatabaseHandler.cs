@@ -59,8 +59,6 @@ namespace Data_access_layer.Handlers
                 string query = "INSERT INTO [dbi434548].[dbo].[Car] VALUES (@Brandname,@Modelname, @Transmission, @Enginepower, @Weight, @Acceleration, @Cargospace, @Seat, @Rentalprice, @Fueltype);";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                   
-
                     command.Parameters.AddWithValue("@ID", C1.ID);
                     command.Parameters.AddWithValue("@Brandname", C1.Brandname);
                     command.Parameters.AddWithValue("@Modelname", C1.Modelname);
@@ -79,6 +77,39 @@ namespace Data_access_layer.Handlers
                 }
             }
            
+        }
+
+        public ICar GetByIDcar (ICar ID)
+        {
+            ICar car = new Car();
+            using (SqlConnection connection = new SqlConnection(DataConnectionstring))
+            {
+                string query = "SELECT * FROM [dbi434548].[dbo].[Car] WHERE ID = @ID;";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    connection.Open();
+                    command.Parameters.AddWithValue("@ID", ID.ID);
+
+                    var reader = command.ExecuteReader();
+                    
+                    while (reader.Read())
+                    {
+                        car.ID = reader.GetInt32(0);
+                        car.Brandname = reader.GetString(1);
+                        car.Modelname = reader.GetString(2);
+                        car.Transmission = reader.GetString(3);
+                        car.Enginepower = reader.GetInt32(4);
+                        car.Weight = reader.GetInt32(5);
+                        car.Acceleration = reader.GetDouble(6);
+                        car.Cargospace = reader.GetInt32(7);
+                        car.Seat = reader.GetInt32(8);
+                        car.RentalPrice = reader.GetDouble(9);
+                        car.Fueltype = reader.GetString(10);
+                    }
+                }
+
+                return car;
+            }
         }
     }
 }
