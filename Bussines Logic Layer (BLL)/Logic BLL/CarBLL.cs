@@ -1,4 +1,5 @@
-﻿using Interfaces.BLL.interfaces;
+﻿using Bussines_Logic_Layer__BLL_.Model_BLL;
+using Interfaces.BLL.interfaces;
 using Interfaces.Entities;
 using Interfaces.Handlers;
 using System;
@@ -22,13 +23,22 @@ namespace Bussines_Logic_Layer__BLL_.Logic_BLL
 
         public void Createcar(ICar car)
         {
-            carDatabaseHandler.Createcars(car);
-        }
+            var _car = new CarModel()
+            {
+                ID = car.ID,
+                Brandname = car.Brandname,
+                Modelname = car.Modelname,
+                Transmission = car.Transmission,
+                Enginepower = car.Enginepower,
+                Weight = car.Weight,
+                Acceleration = car.Acceleration,
+                Cargospace = car.Cargospace,
+                Seat = car.Seat,
+                RentalPrice = car.RentalPrice,
+                Fueltype = car.Fueltype
+            };
 
-        public ICar GetByID(ICar car)
-        {
-            carDatabaseHandler.GetByIDcar(car);
-            return car;
+            carDatabaseHandler.Createcars(_car);
         }
       
         public void DeleteCar(int ID)

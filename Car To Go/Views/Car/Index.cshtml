@@ -6,6 +6,7 @@
 
 @foreach (var item in Model)
 {
+<<<<<<< HEAD
 
     <div class="card-deck">
 
@@ -34,4 +35,22 @@
     <br />
 
 
+=======
+   
+       <div class="card-deck">
+
+           <div class="card">
+               <h2>@Html.DisplayFor(ModelItem => item.Brandname) | @Html.DisplayFor(ModelItem => item.Modelname)</h2>
+               
+               <p>@Html.DisplayFor(ModelItem => item.Enginepower)PK</p>
+               <p>@Html.DisplayFor(ModelItem => item.Acceleration)seconds to 0-100km/h)</p>
+               <p>@Html.DisplayFor(ModelItem => item.Cargospace)Liters Cargospace</p>
+               <p>@Html.DisplayFor(ModelItem => item.Seat)</p>
+
+           </div>
+       </div>
+       <br/>
+       
+                       
+>>>>>>> parent of 4e70de7... Push
 }

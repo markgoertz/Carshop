@@ -61,6 +61,8 @@ namespace Data_access_layer.Handlers
                 string query = "INSERT INTO Car (Brandname, Modelname, Transmission, Enginepower, Weight, Acceleration, Cargospace, Seat, Rentalprice, Fueltype, ImageLink) VALUES (@Brandname, @Modelname, @Transmission, @Enginepower, @Weight, @Acceleration, @Cargospace, @Seat, @Rentalprice, @Fueltype, @ImageLink);";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
+                   
+
                     command.Parameters.AddWithValue("@ID", C1.ID);
                     command.Parameters.AddWithValue("@Brandname", C1.Brandname);
                     command.Parameters.AddWithValue("@Modelname", C1.Modelname);
@@ -139,6 +141,7 @@ namespace Data_access_layer.Handlers
                 }
             }
         }
+<<<<<<< HEAD
 
         public ICar GetByIDcar (ICar ID)
         {
@@ -187,6 +190,8 @@ namespace Data_access_layer.Handlers
                 }
             }
         }
+=======
+>>>>>>> parent of 4e70de7... Push
     }
 }
         

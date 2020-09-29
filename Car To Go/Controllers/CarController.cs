@@ -66,8 +66,11 @@ namespace Car_To_Go.Controllers
                 ImageLink =cardetails.ImageLink
             };
 
+<<<<<<< HEAD
             return View(viewmodel);
         }
+=======
+>>>>>>> parent of 4e70de7... Push
 
     }
 }
