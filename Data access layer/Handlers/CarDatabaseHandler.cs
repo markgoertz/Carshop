@@ -42,7 +42,8 @@ namespace Data_access_layer.Handlers
                             Cargospace = reader.GetInt32(7),
                             Seat = reader.GetInt32(8),
                             RentalPrice = reader.GetDouble(9),
-                            Fueltype = reader.GetString(10)
+                            Fueltype = reader.GetString(10),
+                            ImageLink = reader.GetString(11)
                         };
 
                         cars.Add(CarDTO);
@@ -52,11 +53,12 @@ namespace Data_access_layer.Handlers
             return cars;
         }
 
-        public void Createcars (ICar C1)
+        public void Createcars(ICar C1)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = "INSERT INTO [dbi434548].[dbo].[Car] VALUES (@Brandname,@Modelname, @Transmission, @Enginepower, @Weight, @Acceleration, @Cargospace, @Seat, @Rentalprice, @Fueltype);";
+                connection.Open();
+                string query = "INSERT INTO Car (Brandname, Modelname, Transmission, Enginepower, Weight, Acceleration, Cargospace, Seat, Rentalprice, Fueltype, ImageLink) VALUES (@Brandname, @Modelname, @Transmission, @Enginepower, @Weight, @Acceleration, @Cargospace, @Seat, @Rentalprice, @Fueltype, @ImageLink);";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@ID", C1.ID);
@@ -70,19 +72,78 @@ namespace Data_access_layer.Handlers
                     command.Parameters.AddWithValue("@Seat", C1.Seat);
                     command.Parameters.AddWithValue("@Rentalprice", C1.RentalPrice);
                     command.Parameters.AddWithValue("@Fueltype", C1.Fueltype);
+                    command.Parameters.AddWithValue("@ImageLink", C1.ImageLink);
 
-                    connection.Open();
                     command.ExecuteNonQuery();
-                    connection.Close();
                 }
             }
-           
+        }
+
+        public ICar GetById(ICar _event)
+        {
+            ICar car = new Car();
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string query = "SELECT * FROM Car WHERE ID = @ID; ";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    connection.Open();
+                    command.Parameters.AddWithValue("@ID", _event.ID);
+
+                    var reader = command.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        car.ID = reader.GetInt32(0);
+                        car.Brandname = reader.GetString(1);
+                        car.Modelname = reader.GetString(2);
+                        car.Transmission = reader.GetString(3);
+                        car.Enginepower = reader.GetInt32(4);
+                        car.Weight = reader.GetInt32(5);
+                        car.Acceleration = reader.GetDouble(6);
+                        car.Cargospace = reader.GetInt32(7);
+                        car.Seat = reader.GetInt32(8);
+                        car.RentalPrice = reader.GetDouble(9);
+                        car.Fueltype = reader.GetString(10);
+                        car.ImageLink = reader.GetString(11);
+
+                    }
+
+                }
+            }
+            return car;
+        }
+
+        public void UpdateCar(ICar U1)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "UPDATE Car Set Brandname = @Brandname, Modelname = @Modelname, Transmission = @Transmission, Enginepower = @Enginepower, Weight = @Weight, Acceleration = @Acceleration, Cargospace = @Cargospace, Seat = @Seat, Rentalprice = @Rentalprice, Fueltype = @Fueltype, ImageLink = @ImageLink WHERE ID = @ID;";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@ID", U1.ID);
+                    command.Parameters.AddWithValue("@Brandname", U1.Brandname);
+                    command.Parameters.AddWithValue("@Modelname", U1.Modelname);
+                    command.Parameters.AddWithValue("@Transmission", U1.Transmission);
+                    command.Parameters.AddWithValue("@Enginepower", U1.Enginepower);
+                    command.Parameters.AddWithValue("@Weight", U1.Weight);
+                    command.Parameters.AddWithValue("@Acceleration", U1.Acceleration);
+                    command.Parameters.AddWithValue("@Cargospace", U1.Cargospace);
+                    command.Parameters.AddWithValue("@Seat", U1.Seat);
+                    command.Parameters.AddWithValue("@Rentalprice", U1.RentalPrice);
+                    command.Parameters.AddWithValue("@Fueltype", U1.Fueltype);
+                    command.Parameters.AddWithValue("@ImageLink", U1.ImageLink);
+
+                    command.ExecuteNonQuery();
+                }
+            }
         }
 
         public ICar GetByIDcar (ICar ID)
         {
             ICar car = new Car();
-            using (SqlConnection connection = new SqlConnection(DataConnectionstring))
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 string query = "SELECT * FROM [dbi434548].[dbo].[Car] WHERE ID = @ID;";
                 using (SqlCommand command = new SqlCommand(query, connection))
@@ -109,6 +170,21 @@ namespace Data_access_layer.Handlers
                 }
 
                 return car;
+            }
+        }
+
+        public void DeleteCar(int ID)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = "DELETE FROM Car WHERE ID=@ID";
+                using (SqlCommand command = new SqlCommand(query, conn))
+                {
+                    command.Parameters.AddWithValue("@ID", ID);
+                    conn.Open();
+                    command.ExecuteNonQuery();
+                    conn.Close();
+                }
             }
         }
     }

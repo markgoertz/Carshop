@@ -19,5 +19,7 @@ namespace Car_To_Go.Models
         public int Seat { get; set; }
         public double RentalPrice { get; set; }
         public string Fueltype { get; set; }
+        public string ImageLink { get; set; }
+
     }
 }

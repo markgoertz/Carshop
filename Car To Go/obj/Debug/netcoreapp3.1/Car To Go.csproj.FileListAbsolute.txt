@@ -227,11 +227,9 @@ D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.RazorAssemblyInf
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.TagHelpers.input.cache
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.TagHelpers.output.cache
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.RazorCoreGenerate.cache
-D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Car\Create.cshtml.g.cs
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Car\Index.cshtml.g.cs
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Home\Location.cshtml.g.cs
-D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Home\Store.cshtml.g.cs
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -309,3 +307,7 @@ D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Car To Go.MvcApplicationPa
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Car\Details.cshtml.g.cs
 D:\Fontys semester 2 2020-2021\Test\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Car\Index.cshtml.g.cs
 >>>>>>> Stashed changes
+D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Car\Details.cshtml.g.cs
+D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Create.cshtml.g.cs
+D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+D:\Proftaak\Carshop\Car To Go\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Update.cshtml.g.cs

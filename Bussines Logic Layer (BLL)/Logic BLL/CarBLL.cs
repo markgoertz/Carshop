@@ -30,6 +30,18 @@ namespace Bussines_Logic_Layer__BLL_.Logic_BLL
             carDatabaseHandler.GetByIDcar(car);
             return car;
         }
+      
+        public void DeleteCar(int ID)
+        {
+            carDatabaseHandler.DeleteCar(ID);
+        }
+
+        public ICar UpdateCar(ICar car)
+        {
+            carDatabaseHandler.UpdateCar(car);
+            return car;
+        }
+
 
     }
 }

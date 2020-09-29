@@ -1,19 +1,24 @@
 ﻿@model Car_To_Go.Models.CarViewModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<h1 class="font-weight-bold text-center pb-4">Update</h1>
 
-<h4>MovieViewModel</h4>
+
 <hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-8 text-center bg-dark text-white p-5 font-weight-bolder">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Brandname" class="control-label"></label>
-                <input asp-for="Brandname" class="form-control" />
+                <input asp-for="Brandname" class="form-control" value="@Model.Brandname" />
                 <span asp-validation-for="Brandname" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -37,44 +42,46 @@
                 <span asp-validation-for="Weight" class="text-danger"></span>
             </div>
             <div class="form-group">
-
                 <label asp-for="Acceleration" class="control-label"></label>
                 <input asp-for="Acceleration" class="form-control" />
                 <span asp-validation-for="Acceleration" class="text-danger"></span>
             </div>
             <div class="form-group">
-
                 <label asp-for="Cargospace" class="control-label"></label>
                 <input asp-for="Cargospace" class="form-control" />
                 <span asp-validation-for="Cargospace" class="text-danger"></span>
             </div>
             <div class="form-group">
-
                 <label asp-for="Seat" class="control-label"></label>
                 <input asp-for="Seat" class="form-control" />
                 <span asp-validation-for="Seat" class="text-danger"></span>
             </div>
             <div class="form-group">
-
                 <label asp-for="RentalPrice" class="control-label"></label>
                 <input asp-for="RentalPrice" class="form-control" />
                 <span asp-validation-for="RentalPrice" class="text-danger"></span>
             </div>
             <div class="form-group">
-
                 <label asp-for="Fueltype" class="control-label"></label>
                 <input asp-for="Fueltype" class="form-control" />
                 <span asp-validation-for="Fueltype" class="text-danger"></span>
             </div>
-
-
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" , new { onclick="return confirm('Are sure wants to add?');" }) />
+                <label asp-for="ImageLink" class="control-label"></label>
+                <input asp-for="ImageLink" class="form-control" />
+                <span asp-validation-for="ImageLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
+    </div>
+    <div class="col-md-2">
+
     </div>
 </div>
 
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+

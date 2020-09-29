@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Interfaces.BLL.interfaces;
-using System.Reflection.Metadata.Ecma335;
 using Car_To_Go.Models;
 
 namespace Car_To_Go.Controllers
@@ -36,6 +35,7 @@ namespace Car_To_Go.Controllers
                     Transmission = car.Transmission,
                     Weight = car.Weight,
                     Fueltype = car.Fueltype,
+                    ImageLink = car.ImageLink
                     
 
                 });
@@ -43,27 +43,31 @@ namespace Car_To_Go.Controllers
             return View(cars);
         }
 
-
-        [HttpGet]
-        public ActionResult Create()
+        public ViewResult Details(int ID)
         {
-            var carviewmodel = new CarViewModel();
-            return View(carviewmodel);
+            var carviewmodel = new CarViewModel()
+            {
+                ID = ID,
+            };
+            var cardetails = _carBLL.GetByID(carviewmodel);
+            var viewmodel = new CarViewModel()
+            {
+                ID = cardetails.ID,
+                Brandname = cardetails.Brandname,
+                Modelname = cardetails.Modelname,
+                Acceleration = cardetails.Acceleration,
+                Enginepower = cardetails.Enginepower,
+                Cargospace = cardetails.Cargospace,
+                Fueltype = cardetails.Fueltype,
+                RentalPrice = cardetails.RentalPrice,
+                Seat = cardetails.Seat,
+                Transmission = cardetails.Transmission,
+                Weight = cardetails.Weight,
+                ImageLink =cardetails.ImageLink
+            };
+
+            return View(viewmodel);
         }
-
-        [HttpPost]
-        public ActionResult Create(CarViewModel car)
-        {
-            _carBLL.Createcar(car);
-
-            return RedirectToAction("Index");
-        }
-
-        public ActionResult Details(int ID)
-        {
-            return View("Details");
-        }
-
 
     }
 }

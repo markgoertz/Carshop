@@ -10,5 +10,8 @@ namespace Interfaces.Handlers
         void Createcars(ICar C1);
         List<ICar> GetCars();
         ICar GetByIDcar(ICar ID);
+        void UpdateCar(ICar U1);
+        void DeleteCar(int ID);
+
     }
 }

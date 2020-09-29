@@ -6,18 +6,32 @@
 
 @foreach (var item in Model)
 {
-   
-       <div class="card-deck">
 
-           <div class="card">
-               <h2>@Html.DisplayFor(ModelItem => item.Brandname) | @Html.DisplayFor(ModelItem => item.Modelname)</h2>
-               
-               <p>@Html.DisplayFor(ModelItem => item.Enginepower)PK</p>
-               <p>@Html.DisplayFor(ModelItem => item.Acceleration)seconds to 0-100km/h)</p>
-               <p>@Html.DisplayFor(ModelItem => item.Cargospace)Liters Cargospace</p>
-               <p>@Html.DisplayFor(ModelItem => item.Seat)</p>
+    <div class="card-deck">
 
-           </div>
-       </div>
-       <br/>            
+        <div class="card p-3">
+            <div class="h2 text-center">@Html.DisplayFor(ModelItem => item.Brandname) | @Html.DisplayFor(ModelItem => item.Modelname)</div>
+                <div class="row">
+                    <div class="col-6 p-3">
+
+                        <p>@Html.DisplayFor(ModelItem => item.Cargospace) Liters Cargospace</p>
+                        <p>@Html.DisplayFor(ModelItem => item.Seat) Seats</p>
+
+                    </div>
+
+                    <div class="col-6 p-3">
+                        <div class="img-fluid h-auto">
+                            <img class="img-fluid" style="width:auto; height:auto" src="@Html.DisplayFor(ModelItem => item.ImageLink)" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-footer">
+                    <button class="btn btn-warning">@Html.ActionLink("Lees meer!", "Details", "Car", new { ID = item.ID })</button>
+                </div>
+        </div>
+    </div>
+    <br />
+
+
 }

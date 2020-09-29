@@ -7,20 +7,20 @@
     <p>Search, Rent and got a Car to Go!</p>
 </div>
 
-<div class="card-deck">
-    <div class="card" style="width:400px" asp-area="" asp-controller="Car" asp-action="Index">
-        <img class="card-img-top" style="height:200px;" src="https://cdn.discordapp.com/attachments/754679426339569788/754681048776048750/17VwTRo5DrYelFR1_350.png" alt="Card image">
-        <div class="card-body ">
-            <form asp-controller="Car" asp-action="Index">
-                <button type="submit" class="btn btn-primary">View al cars!</button>
-            </form>
-        </div>
+<div class="card-deck text-center">
+    <div class="card" style="width:400px">
+        <img class="card-img-top" style="height:300px;" src="https://cdn.discordapp.com/attachments/754679426339569788/754681048776048750/17VwTRo5DrYelFR1_350.png" alt="Card image">
+        <div class="card-body">
+            <a class="h4 justify-content-center alert-link" asp-area="" asp-controller="Car" asp-action="Index">ALL CARS!</a>
+            <p class="card-text">For carying persons around!</p>
+         </div>
+        
     </div>
 
     <div class="card" style="width:400px;">
         <img class="card-img-top" style="height: 300px;" src="https://cdn.discordapp.com/attachments/754679426339569788/754963447841816606/sprinter-van.png" alt="Card image">
         <div class="card-body">
-            <h4 class="card-title">All Vans!</h4>
+            <a class="h4 justify-content-center alert-link" asp-area="" asp-controller="#" asp-action="#">ALL VANS!</a>
             <p class="card-text">For large cargo spaces!</p>
         </div>
     </div>
@@ -28,7 +28,7 @@
     <div class="card" style="width:400px;">
         <img class="card-img-top" style="height: 300px;" src="#" alt="Card image">
         <div class="card-body">
-            <h4 class="card-title">All special vehicles!</h4>
+            <a class="h4 justify-content-center alert-link" asp-area="" asp-controller="#" asp-action="#">ALL SPECIAL VEHICLES!</a>
             <p class="card-text">For the heavy work!</p>
         </div>
     </div>

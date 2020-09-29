@@ -17,6 +17,7 @@ namespace Interfaces.Entities
          int Seat { get; set; }
          double RentalPrice { get; set; }
          string Fueltype { get; set; }
+         string ImageLink { get; set; }
 
     }
 }

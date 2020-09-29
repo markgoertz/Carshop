@@ -17,7 +17,7 @@ namespace Car_To_Go
 {
     public class Startup
     {
-        private string ConnectionString = "";
+        private readonly string ConnectionString = "";
         public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             configuration = new ConfigurationBuilder().SetBasePath(env.ContentRootPath).AddJsonFile("appsettings.json", optional: false, reloadOnChange: true).Build();
